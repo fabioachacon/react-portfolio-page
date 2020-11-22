@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
 
 const Nav = ({pathname}) => { 
-    // const {pathname} = useLocation();
     
     return(
         <div>
