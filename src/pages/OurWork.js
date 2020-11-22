@@ -6,7 +6,6 @@ import theracer from '../img/theracer-small.png';
 import goodtimes from '../img/goodtimes-small.png';
 
 import {useScroll} from '../components/useScroll';
-import ScrollTop from '../components/ScrollTop';
 
 //Animations
 import {motion} from 'framer-motion';
@@ -62,7 +61,6 @@ const Work = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;
-
   h2{
       padding: 1rem 0rem;
       color: black

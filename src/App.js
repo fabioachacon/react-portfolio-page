@@ -19,8 +19,8 @@ function App() {
   return (
     <div className="App">
        <GlobalStyle />
-       <ScrollTop />
-       <Nav />
+       <ScrollTop pathname={location.pathname} />
+       <Nav pathname={location.pathname}/>
        <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
           <Route path='/' exact>

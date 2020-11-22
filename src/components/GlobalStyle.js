@@ -9,6 +9,13 @@ const GlobalStyle = createGlobalStyle `
         scroll-behavior: smooth;
     }
 
+    html{
+        @media (max-width: 1500px){
+            font-size: 80%;
+        }
+  
+    }
+
     body{
         background-color: #1b1b1b;
         font-family: 'Inter', sans-serif;
